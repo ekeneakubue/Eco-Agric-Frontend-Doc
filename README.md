@@ -68,4 +68,4 @@ import { FaHome, FaSearch, FaBookmark, FaUser } from 'react-icons/fa'; // Import
 ```
 
 ### Flow diagram of component relationship:
-![flowdiagram!](flow-daigram.jpg)
+![flowdiagram!](images/flow-daigram.jpg)

@@ -17,11 +17,11 @@ the bottom of the application. It utilizes React Router for navigation between d
 
 For our icons and link (navigation link for the footer), we need to install two dependencies, After installation then we import then into our component
 
-Two dependencies to install:
+**Two dependencies to install:**
 - npm install react-router-dom
 - npm install react-icons
 
-Two dependencies that we import:
+**Two dependencies that we import:**
 - import React from 'react';
 - import Footer from './Footer';
 

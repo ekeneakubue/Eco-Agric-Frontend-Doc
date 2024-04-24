@@ -66,3 +66,6 @@ Icons are imported as components and integrated within the Footer component for 
 import React from 'react';
 import { FaHome, FaSearch, FaBookmark, FaUser } from 'react-icons/fa'; // Importing required icons from react-icons/fa
 ```
+
+### Following Diagrams
+![Alt text](https://assets.digitalocean.com/articles/alligator/boo.svg "a title")

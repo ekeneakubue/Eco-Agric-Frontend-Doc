@@ -77,4 +77,43 @@ import { FaHome, FaSearch, FaBookmark, FaUser } from 'react-icons/fa'; // Import
 The Footer component is located at the bottom of the application layout. Each component is interconnected, with the Footer being
 a part of the overall layout and providing navigation links and interaction to the user.
 
+
 ## Code Snippet for our footer components:
+```
+    import React from 'react';
+    import { Link } from 'react-router-dom'; // Importing Link component from React Router for navigation
+    import { FaHome, FaSearch, FaBookmark, FaUser } from 'react-icons/fa'; // Importing required icons from react-icons/fa
+    
+    function Footer() = {
+      return (
+        <footer>
+          <nav>
+            <ul>
+              <li>
+                <Link to="/">
+                  <FaHome /> Home
+                </Link>
+              </li>
+              <li>
+                <Link to="/search">
+                  <FaSearch /> Search
+                </Link>
+              </li>
+              <li>
+                <Link to="/bookmark">
+                  <FaBookmark /> Save/Bookmark
+                </Link>
+              </li>
+              <li>
+                <Link to="/profile">
+                  <FaUser /> Profile
+                </Link>
+              </li>
+            </ul>
+          </nav>
+        </footer>
+      );
+    };
+    
+    export default Footer;
+```

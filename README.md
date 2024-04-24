@@ -48,3 +48,21 @@ The component automatically provides navigation links and interaction elements a
     
     export default App;
 ```
+
+## Footer Structure:
+The Footer component follows a simple structure:
+
+- Footer: Parent component responsible for rendering the footer section.
+- Navigation Links: Provides links to various sections of the application such as Home, Blog, Save/Bookmark, Profile/User. etc.
+- Blog Button: Represents a specific action within the app, allowing users to access Blog post section.
+
+## React Icon Implimentation:
+The Footer component utilizes the react-icons library to import and display icons for navigation links and interaction elements. 
+Icons are imported as components and integrated within the Footer component for seamless rendering.
+
+### To import react icons into the Footer component:
+
+```
+import React from 'react';
+import { FaHome, FaSearch, FaBookmark, FaUser } from 'react-icons/fa'; // Importing required icons from react-icons/fa
+```

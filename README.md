@@ -35,7 +35,8 @@ The component automatically provides navigation links and interaction elements a
 ## Code snippet:
 ```
     import React from "react";
-    import Footer from "./Footer";    
+    import Footer from "./Footer";
+   
     const App = () => {
       return (
         <div className="app">

@@ -33,16 +33,17 @@ Once installed and imported, we can use the Footer component within your React a
 The component automatically provides navigation links and interaction elements at the bottom of the application.
 
 ## Code snippet:
-"import React from 'react';
-  import Footer from './Footer';
-  
-  const App = () => {
-    return (
-      <div className="app">
-        {/* Other application content */}
-        <Footer />
-      </div>
-    );
-  };
-  
-  export default App;"
+''' import React from 'react';
+    import Footer from './Footer';
+    
+    const App = () => {
+      return (
+        <div className="app">
+          {/* Other application content */}
+          <Footer />
+        </div>
+      );
+    };
+    
+    export default App;
+'''
